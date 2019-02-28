@@ -19,77 +19,77 @@ function init() {
     var siete = document.getElementById('siete');
     var ocho = document.getElementById('ocho');
     var nueve = document.getElementById('nueve');
-    var cero = document - getElementById('cero')
+    var cero = document.getElementById('cero')
 
 
-    uno.onclick = function (e) {
+    uno.onclick = function () {
         resultado.textContent = resultado.textContent + '1';
     }
 
-    dos.onclick = function (e) {
+    dos.onclick = function () {
         resultado.textContent = resultado.textContent + '2';
     }
 
-    tres.onclick = function (e) {
+    tres.onclick = function () {
         resultado.textContent = resultado.textContent + '3';
     }
 
-    cuatro.onclick = function (e) {
+    cuatro.onclick = function () {
         resultado.textContent = resultado.textContent + '4';
 
     }
-    cinco.onclick = function (e) {
+    cinco.onclick = function () {
         resultado.textContent = resultado.textContent + '5';
     }
 
-    seix.onclick = function (e) {
+    seix.onclick = function () {
         resultado.textContent = resultado.textContent + '6';
 
     }
-    siete.onclick = function (e) {
+    siete.onclick = function () {
         resultado.textContent = resultado.textContent + '7';
     }
 
-    ocho.onclick = function (e) {
+    ocho.onclick = function () {
         resultado.textContent = resultado.textContent + '8';
 
     }
-    nueve.onclick = function (e) {
+    nueve.onclick = function () {
         resultado.textContent = resultado.textContent + '9';
     }
-    cero.onclick = function (e) {
+    cero.onclick = function () {
         resultado.textContent = resultado.textContent + '0';
     }
 
-    reset.onclick = function (e) {
+    reset.onclick = function () {
         resetear();
     }
 
-    suma.onclick = function (e) {
+    suma.onclick = function () {
         operandoa = resultado.textContent;
         operacion = '+';
         limpiar();
     }
 
-    resta.onclick = function (e) {
+    resta.onclick = function () {
         operandoa = resultado.textContent;
         operacion = '-';
         limpiar();
     }
 
-    divisor.onclick = function (e) {
+    divisor.onclick = function () {
         operandoa = resultado.textContent;
         operacion = '/';
         limpiar();
     }
 
-    multi.onclick = function (e) {
+    multi.onclick = function () {
         operandoa = resultado.textContent;
         operacion = '*';
         limpiar();
     }
 
-    igual.onclick = function (e) {
+    igual.onclick = function () {
         operandob = resultado.textContent;
         resolver();
     }
